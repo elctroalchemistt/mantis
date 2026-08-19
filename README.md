@@ -26,7 +26,7 @@ For developers and companies building AI-powered systems, unmitigated **Token Ex
 ## 🚀 Live Defense Demo
 Watch how Mantis detects malicious flood traffic, enforces rate limits, and protects your capital instantly:
 
-(assets/2026-08-19-20-50-29.mp4)
+<video src="assets/2026-08-19-20-50-29.mp4" controls width="100%"></video>
 
 ---
 
