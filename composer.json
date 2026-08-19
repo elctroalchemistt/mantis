@@ -1,0 +1,33 @@
+{
+    "name": "alchemist/mantis",
+    "description": "Enterprise AI Security & Financial Radar for Laravel",
+    "type": "library",
+    "keywords": ["laravel", "ai", "security", "firewall", "openai", "rate-limiting", "redis"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alchemist",
+            "email": "admin@alchemist-security.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/http": "^10.0|^11.0",
+        "illuminate/redis": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alchemist\\Mantis\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alchemist\\Mantis\\MantisServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
